@@ -1,0 +1,16 @@
+server:
+  port: 1012
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: vardhan
+    password: vardhan
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
