@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: todo_backend
+  security:
+    user:
+      name: vardhan
+      password: vardhan
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+server:
+  port: 1010
+
+
+#logging:
+#  level:
+#    org:
+#      springframework: debug
